@@ -12,6 +12,3 @@ services:
     volumes:
       - ./auth:/auth
       - ./registry-data:/registry-data
-volumes:
-  registry:
-    driver: local
